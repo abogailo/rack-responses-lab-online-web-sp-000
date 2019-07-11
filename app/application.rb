@@ -6,7 +6,6 @@ class Application
     num_1 = Time.now
     time = num_1.hour
 
-    resp.write "#{num_1}\n"
 
     if time < 12
       resp.write "Good Morning!"
